@@ -3,6 +3,8 @@
    NOMBRE: sp_RegistrarVoto_Seguro
    DESCRIPCIÓN: Gestiona la transacción del voto con lógica Blockchain.
    ======================================================================== */
+USE BD_Votacion_FIEE;
+GO
 CREATE PROCEDURE sp_RegistrarVoto_Seguro
     @Codigo_UNI CHAR(9),
     @ID_Lista_Votada INT,
